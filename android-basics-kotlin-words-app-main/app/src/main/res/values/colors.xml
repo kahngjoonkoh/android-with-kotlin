@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<?xml version="1.0" encoding="utf-8"?>
+<!--
      Copyright (C) 2020 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,16 +14,15 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".LetterListFragment">
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#0097A7</color>
+    <color name="teal_900">#006064</color>
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/nav_host_fragment"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:defaultNavHost="true"/>
-</FrameLayout>
+    <color name="blue_200">#62A3FF</color>
+    <color name="blue_700">#1675D1</color>
+    <color name="blue_900">#004A9F</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
